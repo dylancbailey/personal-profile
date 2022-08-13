@@ -71,10 +71,12 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid #F2F2F2;
-  transition: all .5s;
+  transition: all .5s ease;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
+  border-radius: 10%;
+  border: 3px dotted #ff9999;
 }
 .tag {
   background-color: #F2F2F2;
