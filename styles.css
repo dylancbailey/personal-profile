@@ -50,8 +50,18 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  opacity: 50%;
+  color: #F2F2F2;
 }
 .nav a:hover {
+  color: #ff9999;
+  opacity: 100%;
+}
+.nav .name a {
+  color: white;
+  opacity: 100%;
+}
+.nav .name a:hover {
   color: #ff9999;
 }
 
@@ -75,7 +85,7 @@ header .profile-image {
   transition: all .5s ease;
 }
 header .profile-image:hover {
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1) rotate(-5deg);
   border-radius: 10%;
   border: 3px dotted #ff9999;
 }
@@ -103,6 +113,9 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff9999;
+}
+.music-link a:hover{
+  transition: all .5s;
 }
 
 ul.skills {
