@@ -114,7 +114,7 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff9999;
 }
-.music-link a:hover{
+.music-link a {
   transition: all .5s;
 }
 figure img {
